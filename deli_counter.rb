@@ -11,6 +11,6 @@ def line(array)
       newarray.push("#{i+1}. #{array[i]}")
       i += 1
     end
-    puts "The line is currently: +#{newarray}"
+    puts "The line is currently: "+"#{newarray}"
   end
 end
