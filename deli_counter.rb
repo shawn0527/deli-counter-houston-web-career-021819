@@ -8,7 +8,7 @@ def line(array)
     newarray=[]
     i=0
     while i < array.length
-      newarray.push("#{i+1}. #{array(i)}")
+      newarray.push("#{i+1}. #{array[i]}")
       i += 1
     end
     puts "The line is currently: +#{newarray}"
